@@ -41,3 +41,8 @@
    var results= reverse("soccer");
    assert.ok("soccer","Passed");
 });
+
+   QUnit.test("testing hello_list function", function(assert){
+     var results = hello("hello world");
+     assert.ok(10,"Passed");
+   });
