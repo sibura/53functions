@@ -1,4 +1,4 @@
-function hello_list() {
-    return hello world(10);
+function hello_list(number) {
+    return hello world();
 
 }

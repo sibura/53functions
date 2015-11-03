@@ -44,5 +44,57 @@
 
    QUnit.test("testing hello_list function", function(assert){
      var results = hello("hello world");
-     assert.ok(10,"Passed");
+     assert.ok(10,"hello world");
+   });
+
+   // QUnit.test("testing high_low function", function(assert){
+   //   var results = high_low(5,10,15,20);
+   //   assert.ok(results, "20" +' '+"5");
+   // });
+
+///
+   QUnit.test("testing count_words function", function(assert){
+     var results = count_words("I am those words");
+     assert.ok(13, results);
+   });
+
+   QUnit.test("testing sum_word_len function", function(assert){
+     var results = sum_word_len("word are too long");
+     assert.ok(4, results);
+   });
+
+   QUnit.test("testing longest_word  function", function(assert){
+     var results = longest_word(["Web , Developer, Coders"]);
+     assert.ok(results);
+   });
+
+   QUnit.test("testing shortest_word function", function(assert){
+     var results = shortest_word();
+     assert.ok(results, "");
+   });
+
+   QUnit.test("testing avg function", function(assert){
+     var results = avg();
+     assert.ok(results, "");
+   });
+
+
+   QUnit.test("testing start  function", function(assert){
+     var results = start();
+     assert.ok(results, "");
+   });
+
+   QUnit.test("testing ends  function", function(assert){
+     var results = ends();
+     assert.ok(results, "");
+   });
+
+   QUnit.test("testing occurs_most function", function(assert){
+     var results = occurs_most();
+     assert.ok(results, "");
+   });
+
+   QUnit.test("testing occurs_least function", function(assert){
+     var results = occurs_least();
+     assert.ok(results);
    });
