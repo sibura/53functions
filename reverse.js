@@ -1,4 +1,4 @@
 function reverse(ball) {
-    return reverse.toString();
+    return(ball.toString());
 
-}
+};

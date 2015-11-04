@@ -1,3 +1,3 @@
 function hello_uppercase(username){
-  return("hello, " + username);
+  return("hello, " + username).toUpperCase();
 }	
