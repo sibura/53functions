@@ -57,15 +57,15 @@
      assert.equal(4, results);
    });
 
-   // QUnit.test("testing sum_word_len function", function(assert){
-   //   var results = sum_word_len("word are too long");
-   //   assert.equal(results, "word are too long");
-   // });
+   QUnit.test("testing sum_word_len function", function(assert){
+     var results = sum_word_len("word are too long");
+     assert.equal(results, "word are too long");
+   });
 
-   // QUnit.test("testing longest_word  function", function(assert){
-   //   var results = longestWord();
-   //   assert.equal(3,results, "Web  Developer Coders");
-   // });
+   QUnit.test("testing longest_word  function", function(assert){
+     var results = longestWord();
+     assert.equal(3,results, "Web  Developer Coders");
+   });
 
    QUnit.test("testing shortest_word function", function(assert){
      var results = shortest_word();
